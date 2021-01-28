@@ -1,0 +1,31 @@
+<template>
+    <div class="slds-p-around_medium slds-text-heading_large">
+        <a class="slds-m-horizontal_medium" onclick={showEs2021}>
+            ES2021 (ES12)
+        </a>
+        |
+        <a class="slds-m-horizontal_medium" onclick={showEs2020}>
+            ES2020 (ES11)
+        </a>
+        |
+        <a class="slds-m-horizontal_medium" onclick={showEs2019}>
+            ES2019 (ES10)
+        </a>
+        |
+        <a class="slds-m-horizontal_medium" onclick={showEs2018}>
+            ES2018 (ES9)
+        </a>
+    </div>
+    <template if:true={es2021}>
+        <ui-es2021></ui-es2021>
+    </template>
+    <template if:true={es2020}>
+        <ui-es2020></ui-es2020>
+    </template>
+    <template if:true={es2019}>
+        <ui-es2019></ui-es2019>
+    </template>
+    <template if:true={es2018}>
+        <ui-es2018></ui-es2018>
+    </template>
+</template>

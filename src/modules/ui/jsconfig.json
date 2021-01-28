@@ -1,0 +1,104 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/allSettled": [
+                "allSettled/allSettled.js"
+            ],
+            "c/asyncIteration": [
+                "asyncIteration/asyncIteration.js"
+            ],
+            "c/catchBinding": [
+                "catchBinding/catchBinding.js"
+            ],
+            "c/featureContainer": [
+                "featureContainer/featureContainer.js"
+            ],
+            "c/flat": [
+                "flat/flat.js"
+            ],
+            "c/flatMap": [
+                "flatMap/flatMap.js"
+            ],
+            "c/fromEntries": [
+                "fromEntries/fromEntries.js"
+            ],
+            "c/matchAll": [
+                "matchAll/matchAll.js"
+            ],
+            "c/nullishCoalescing": [
+                "nullishCoalescing/nullishCoalescing.js"
+            ],
+            "c/objectRestProperties": [
+                "objectRestProperties/objectRestProperties.js"
+            ],
+            "c/objectSpreadProperties": [
+                "objectSpreadProperties/objectSpreadProperties.js"
+            ],
+            "c/optionalChaining": [
+                "optionalChaining/optionalChaining.js"
+            ],
+            "c/promiseFinally": [
+                "promiseFinally/promiseFinally.js"
+            ],
+            "c/trim": [
+                "trim/trim.js"
+            ],
+            "c/warning": [
+                "warning/warning.js"
+            ],
+            "c/replaceAll": [
+                "replaceAll/replaceAll.js"
+            ],
+            "c/promiseAny": [
+                "promiseAny/promiseAny.js"
+            ],
+            "c/logicalAssignment": [
+                "logicalAssignment/logicalAssignment.js"
+            ],
+            "c/numericSeparators": [
+                "numericSeparators/numericSeparators.js"
+            ],
+            "c/intlFeatures": [
+                "intlFeatures/intlFeatures.js"
+            ],
+            "c/finalizers": [
+                "finalizers/finalizers.js"
+            ],
+            "c/weakRefs": [
+                "weakRefs/weakRefs.js"
+            ],
+            "c/moduleExports": [
+                "moduleExports/moduleExports.js"
+            ],
+            "c/utils": [
+                "utils/utils.js"
+            ],
+            "c/dynamicImport": [
+                "dynamicImport/dynamicImport.js"
+            ],
+            "c/importMeta": [
+                "importMeta/importMeta.js"
+            ],
+            "c/symbolDescription": [
+                "symbolDescription/symbolDescription.js"
+            ],
+            "c/bigInt": [
+                "bigInt/bigInt.js"
+            ],
+            "c/globalThis": [
+                "globalThis/globalThis.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
