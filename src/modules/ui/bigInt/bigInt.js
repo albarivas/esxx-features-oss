@@ -2,7 +2,7 @@ import { LightningElement } from "lwc";
 
 export default class BigInt extends LightningElement {
     bigInt() {
-        const astroFans = BigInt(
+        const astroFans = new BigInt(
             "0b11111111111111111111111111111111111111111111111111111"
         );
         console.log(typeof astroFans == BigInt);
