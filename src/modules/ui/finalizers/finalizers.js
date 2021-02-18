@@ -1,4 +1,4 @@
-import { LightningElement } from 'lwc';
+import { LightningElement } from "lwc";
 
 export default class Finalizers extends LightningElement {
     finalizers() {
@@ -8,7 +8,7 @@ export default class Finalizers extends LightningElement {
             );
         });
         const astro = {};
-        registry.register(astro, 'Thanks for creating this astro object!');
+        registry.register(astro, "Thanks for creating this astro object!");
         // expected output (after some time): Thanks for creating this astro object!
     }
 
