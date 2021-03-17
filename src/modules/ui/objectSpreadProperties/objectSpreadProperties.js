@@ -12,12 +12,12 @@ export default class ObjectSpreadProperties extends LightningElement {
 
   get code() {
     return `objectSpreadProperties() {
-    const astro = { name: "Astro", age: 5 };
+  const astro = { name: "Astro", age: 5 };
 
-    const newAstro = { ...astro, hobby: "biking" };
+  const newAstro = { ...astro, hobby: "biking" };
 
-    console.log(newAstro);
-    // expected output: Object {name: "Astro", age: 5, hobby: "biking"}
-  }`;
+  console.log(newAstro);
+  // expected output: Object {name: "Astro", age: 5, hobby: "biking"}
+}`;
   }
 }
