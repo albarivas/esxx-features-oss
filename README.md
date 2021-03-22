@@ -1,6 +1,8 @@
 # ESXX Features
 
-Built with LWC OSS.
+App that showcases how to use ES9, ES10, ES11 and ES12 features in LWC OSS.
+
+Note: for this app to work lwc-services needs to be ^3.0.2.
 
 ## Running Locally
 
